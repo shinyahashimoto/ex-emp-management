@@ -102,6 +102,9 @@ public class AdministratorController {
 
 	}
 	
+	/**ログアウトをします.
+	 * @return ログイン画面
+	 */
 	@RequestMapping("/logout")
 	public String logout() {
 		session.invalidate();
